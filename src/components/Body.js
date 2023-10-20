@@ -1,6 +1,6 @@
-import "./Desc.css"
+import "./Body.css"
 
-function Desc() {
+function Body() {
     return (
     <>
         <p1>EastieUnits is a website designated for the use of property managers and tenants/potential tenants, 
@@ -12,4 +12,4 @@ function Desc() {
     )
 }
 
-export default Desc
+export default Body

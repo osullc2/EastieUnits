@@ -1,7 +1,7 @@
 import './App.css';
-import Contact from "./components/Contact"
 import Header from "./components/Header"
-import Desc from "./components/Desc"
+import Body from "./components/Body"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     
     <div className="EastieUnits">
       <Header />
-      <Desc />
+      <Body />
       <Contact />
     </div>
 
