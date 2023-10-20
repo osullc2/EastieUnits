@@ -1,9 +1,15 @@
 .contact-text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #333;
-    text-align: center; /* Align the text to the right */
-    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     margin: 20px; /* Add some margin for spacing */
+}
+
+.title {
+    text-align: left;
+    top: 0;
+    right: 0;
+    color: white;
+    text-decoration: underline;
 }
