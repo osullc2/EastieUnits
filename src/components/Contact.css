@@ -4,13 +4,13 @@
 }
 
 .contact-body {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-evenly;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 20px;
-    margin-left: 5%; /* Adjust the margin to control space between items */
-    margin-right: 5%; /* Adjust the margin to control space between items */
+    padding-right: 0;
+    margin-left: 15%; /* Adjust the margin to control space between items */
+    margin-right: 0; /* Adjust the margin to control space between items */
 }
 
 .contact-text {
