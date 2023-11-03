@@ -1,7 +1,7 @@
 .tiles {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping of tiles to new rows */
-    justify-content: flex-start; /* Start from the left side of the container */
+    justify-content: space-between; /* Start from the left side of the container */
     padding: 10px;
     
 }
@@ -9,5 +9,5 @@
 .row-divider {
     width: 100%; /* Force a new row by setting width to 100% */
     flex-basis: 100%; /* Reset the flex-basis to 100% for new row */
-    height: 10px; /* Hide the row-divider, it's just for layout */
+    height: 0px; /* Hide the row-divider, it's just for layout */
 }
