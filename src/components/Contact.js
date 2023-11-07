@@ -1,9 +1,10 @@
 import "./Contact.css"
 
+
 function Contact(){
     return(
     <>
-        <div className = "container">
+        <div className = "container" id="contact">
             <div className = "title">
                 Contact Information
             </div>
