@@ -12,6 +12,7 @@ import tile8 from "./newTiles/tile8.jpg";
 import tile9 from "./newTiles/tile9.jpg";
 import tile10 from "./newTiles/tile10.jpg";
 
+
 function Body() {
     const tileData = [
         { img: tile1, desc: "house1" },

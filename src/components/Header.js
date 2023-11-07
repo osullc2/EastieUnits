@@ -9,13 +9,7 @@ function Header() {
           <nav className="navbar">
             <ul className="navbar-list">
               <li class="navbar-item">
-                <Link
-                  to="home" // Use the ID of the target component you want to scroll to
-                  smooth={true}
-                  duration={500} 
-                >
-                  Home
-                </Link>
+                <a href="/">Home </a>
               </li>
               <li class="navbar-item">
                 <Link
