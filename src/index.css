@@ -5,8 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0075AA;
+  background: #0075AA; /* Fallback color */
+  background: radial-gradient(circle, #0075AA, #0075AA, #0075AA, #333); /* Gradient from center out */
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
