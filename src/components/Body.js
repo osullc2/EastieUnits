@@ -15,23 +15,23 @@ import tile10 from "./newTiles/tile10.jpg";
 
 function Body() {
     const tileData = [
-        { img: tile1, desc: "house1" },
-        { img: tile2, desc: "house2" },
-        { img: tile3, desc: "house3" },
-        { img: tile4, desc: "house4" },
-        { img: tile5, desc: "house5" },
-        { img: tile6, desc: "house6" },
-        { img: tile7, desc: "house7" },
-        { img: tile8, desc: "house8" },
-        { img: tile9, desc: "house9" },
-        { img: tile10, desc: "house10" },
+        { img: tile1, desc: "house1", route: "/Tile1" },
+        { img: tile2, desc: "house2", route: "/Tile2" },
+        { img: tile3, desc: "house3", route: "/Tile3" },
+        { img: tile4, desc: "house4", route: "/Tile4" },
+        { img: tile5, desc: "house5", route: "/Tile5" },
+        { img: tile6, desc: "house6", route: "/Tile6" },
+        { img: tile7, desc: "house7", route: "/Tile7" },
+        { img: tile8, desc: "house8", route: "/Tile8" },
+        { img: tile9, desc: "house9", route: "/Tile9" },
+        { img: tile10, desc: "house10", route: "/Tile10" },
     ];
 
     return (
         <div className="tiles">
             {tileData.map((tile, index) => (
                 <React.Fragment key={index}>
-                    <Tile img={tile.img} desc={tile.desc} />
+                    <Tile img={tile.img} desc={tile.desc} route={tile.route} />
                     {index % 3 === 2 && <div className="row-divider" />}
                 </React.Fragment>
             ))}
