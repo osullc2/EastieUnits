@@ -5,8 +5,10 @@ function Tile1() {
     return (
         <div className="body">
             <img src={img} alt="Not found"/>
-            <h1> This is the page for tile 1</h1>
-            <p1> Here is some info</p1>
+            <div className="description">
+                <h1> This is the page for tile 1</h1>
+                <p1> Here is some info</p1>
+            </div>
         </div>
     )
 }
