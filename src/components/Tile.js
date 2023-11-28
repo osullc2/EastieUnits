@@ -8,7 +8,6 @@ function Tile(props) {
                 <div className="content">
                     <img src={props.img} alt="Not Found"/>
                     <h1> {props.desc} </h1>
-                    
                 </div>     
             </div>
         </a>

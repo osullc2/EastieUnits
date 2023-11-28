@@ -15,16 +15,16 @@ import tile10 from "./newTiles/tile10.jpg";
 
 function Body() {
     const tileData = [
-        { img: tile1, desc: "house1", route: "/Tile1" },
-        { img: tile2, desc: "house2", route: "/Tile2" },
-        { img: tile3, desc: "house3", route: "/Tile3" },
-        { img: tile4, desc: "house4", route: "/Tile4" },
-        { img: tile5, desc: "house5", route: "/Tile5" },
-        { img: tile6, desc: "house6", route: "/Tile6" },
-        { img: tile7, desc: "house7", route: "/Tile7" },
-        { img: tile8, desc: "house8", route: "/Tile8" },
-        { img: tile9, desc: "house9", route: "/Tile9" },
-        { img: tile10, desc: "house10", route: "/Tile10" },
+        { img: tile1, desc: "32 Princeton St", route: "/Tile1" },
+        { img: tile2, desc: "194 Chelsea St", route: "/Tile2" },
+        { img: tile3, desc: "34 Cottage St", route: "/Tile3" },
+        { img: tile4, desc: "651 Bennington St", route: "/Tile4" },
+        { img: tile5, desc: "12 House Rd", route: "/Tile5" },
+        { img: tile6, desc: "66 Road St", route: "/Tile6" },
+        { img: tile7, desc: "1234 15th St", route: "/Tile7" },
+        { img: tile8, desc: "2 Peoples Ave", route: "/Tile8" },
+        { img: tile9, desc: "31 Curtis St", route: "/Tile9" },
+        { img: tile10, desc: "49 State St", route: "/Tile10" },
     ];
 
     return (
